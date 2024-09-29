@@ -1,0 +1,51 @@
+{
+    "custom/quicklink1": {
+        "format": "",
+        "on-click": "chromium",
+        "tooltip-format": "Open Chromium"
+    }, 
+    "custom/quicklink2": {
+        "format": "",
+        "on-click": "~/.config/ml4w/settings/browser.sh",
+        "tooltip-format": "Open Vivaladi"
+    },
+    "custom/quicklink3": {
+        "format": "",
+        "on-click": "~/.config/ml4w/settings/filemanager.sh",
+        "tooltip-format": "Open filemanager"
+    }, 
+    "custom/quicklink4": {
+        "format": "",
+        "on-click": "",
+        "tooltip-format": "Open Betterbird"
+    }, 
+    "custom/quicklink5": {
+        "format": "",
+        "on-click": "~/.config/ml4w/settings/calculator.sh",
+        "tooltip-format": "Open calculator"
+    }, 
+    "custom/quicklink6": {
+        "format": "",
+        "on-click": "~/.config/ml4w/settings/emojipicker.sh",
+        "tooltip-format": "Open emoji picker"
+    }, 
+    "custom/quicklink7": {
+        "format": "",
+        "on-click": "sh -c 'flatpak run com.stremio.Stremio'",
+        "tooltip-format": "Open Stremio"
+    },
+    "custom/quicklinkempty": {
+    }, 
+    "group/quicklinks": {
+        "orientation": "horizontal",
+        "modules": [
+            "custom/quicklink2",
+            "custom/quicklink3",
+            "custom/quicklink7",
+            /*
+            "custom/quicklink4",
+            */
+            "custom/quicklinkempty"
+        ]
+    }
+}
